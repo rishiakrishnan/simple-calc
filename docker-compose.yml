@@ -1,0 +1,6 @@
+services:
+  ubuntu:
+    build: .
+    container_name: flask-web
+    ports:
+      - "8000:5000"
