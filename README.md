@@ -3,4 +3,5 @@ SETUP VIRTUAL ENVIRONMENT:
     source venv/bin/activate
     pip install flask
 
-python app.py --port=8000
+python app.py --port=5000
+python frontend/app.py
