@@ -5,3 +5,5 @@ SETUP VIRTUAL ENVIRONMENT:
 
 python app.py --port=5000
 python frontend/app.py
+
+mysql -u root -p < db/db_init.sql
